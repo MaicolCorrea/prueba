@@ -110,6 +110,5 @@ class proveAloneController extends Controller {
         } else {
             return response()->json( [ 'error' => 'El estado de la cosa no se ah podido actualizar D:' ], 500 );
         }
-
     }
 }
